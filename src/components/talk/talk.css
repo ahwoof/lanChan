@@ -1,0 +1,215 @@
+.main{
+    background: #ffffff;
+    width: 100%;
+    height: 100%;
+  }
+  .msgBox{
+    height: -moz-calc(100% - 131px);
+    height: -webkit-calc(100% - 131px); 
+    height: -o-calc(100% - 131px);
+    height: -ms-calc(100% - 131px);
+    height: calc(100% - 131px);
+    width: 100%;
+    padding: 35px 26px 0 26px;
+    overflow-y: auto;
+    position: relative;
+  }
+  .edit{
+    height: 131px;
+    width: 100%;
+    border-top:1px solid #f0f0f0;
+    padding: 10px;
+    box-sizing: border-box; 
+    padding-top:4px;
+  }
+  .otherbar{
+    height: 26px;
+    padding-left: 5px;
+  }
+  .otherbar > div {
+    
+    font-size: 18px;
+    margin-right: 10px;
+    float: left;
+    position: relative;
+  }
+   .otherbar > div > i{
+     color: #696f73;
+     cursor: pointer;
+  }
+  .otherbar > div > i:hover{
+    color: #ff0f0f;
+  }
+  .edit > textarea{
+    height: -moz-calc(100% - 60px);
+    height: -webkit-calc(100% - 60px); 
+    height: -o-calc(100% - 60px);
+    height: -ms-calc(100% - 60px);
+    height: calc(100% - 60px);
+    width: 100%;
+    border: none;
+    resize : none;
+    outline: none;
+    color: #ff0f0f;
+    padding-left: 5px;
+    font-size: 14px;
+  }
+  .row{
+    padding: 0 0 10px 0;
+    position: relative;
+  }
+  .hearShot{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+  }
+  .otherRow{
+    padding-left: 50px;
+    padding-right: 30%;
+  }
+  .otherRow > img{
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  .row .wrap{
+    height: 30px;
+    line-height: 30px;
+  }
+  .otherRow .wrap div{
+    float: left;
+    position: relative;
+  }
+  .otherRow .wrap div:nth-child(1){
+    font-weight: bolder;
+    margin-right: 10px;
+    font-size: 14px;
+  }
+  .row .wrap div:nth-child(2){
+    color: #8f8f8f;
+    font-size: 12px;
+  }
+  .message{
+    display: inline-block;
+    background: #f5f5f5;
+    padding: 10px;
+    border-radius: 4px;
+    box-shadow: -4px 4px 8px rgba(0,0,0,.2);
+    max-width: 450px;
+    max-height: 560px;
+    overflow-y: auto;
+    margin: 10px 0 10px 0;
+  }
+  
+  .message > img{
+    margin: 0;
+    max-width: 500px;
+    max-height: 500px;
+  }
+  .message > video{
+    margin: 0;
+    max-width: 500px;
+    max-height: 500px;
+  }
+  .otherRow .message{
+    box-shadow: 4px 4px 8px rgba(0,0,0,.2);
+  }
+  .imgmessage{
+    padding: 0;
+    max-width: 100%;
+    background: none !important;
+    box-shadow: none !important;
+  }
+  .message i{
+    margin: 0 10px;
+    border-radius: 50%;
+    background: #ffe20d;
+    font-size: 22px;
+  }
+  .myRow{
+    padding-right: 50px;
+    padding-left: 30%;
+  }
+  .myRow > img{
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .myRow .wrap div{
+    float: right;
+  }
+  .myRow .wrap div:nth-child(1){
+    font-weight: bolder;
+    margin-left: 10px;
+    /* font-size: 14px; */
+  }
+  .myRow .msgWrap{
+    text-align: right;
+  }
+  .emoji{
+    position: absolute;
+    bottom: 35px;
+    left: -10px;
+    padding: 5px;
+    border: 1px solid #f0f0f0;
+    border-right: 5px;
+    background: #fff;
+    box-shadow: 1px 2px 15px rgba(0,0,0,.3);
+    width: 252px;
+    height: 240px;
+    word-break:break-all;
+    overflow-y: auto;
+  }
+  .emoji i {
+    font-size: 16px;
+    margin: 5px;
+    cursor: pointer;
+    background: #ffe20d;
+    border-radius: 50%;
+  }
+  .todo{
+    /* text-align: right; */
+    padding-right: 30px;
+    position: relative;
+  }
+  .todo button:nth-child(1){
+    position: absolute;
+    right: 98px;
+    z-index: 99;
+  }
+  .todo button:nth-child(2){
+    position: absolute;
+    right: 12px;
+    z-index: 99;
+  }
+  .file{
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    opacity: 0;
+    cursor: pointer;
+  }
+  .todo > div{
+    position: absolute;
+    right: 30px;
+    top: 0;
+  }
+  .anonymity{
+    color: red;
+    
+  }
+  .loadMore{
+    text-align: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    padding: 5px 0 20px 0;
+    /* width: 100%; */
+  }
